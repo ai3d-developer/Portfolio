@@ -262,7 +262,10 @@ export default function Home() {
             <div className="space-y-6">
               <div>
                 <p className="text-slate-600 dark:text-slate-300 text-lg mb-2">Hey, it's me</p>
-                <h1 className="text-5xl md:text-7xl font-bold text-slate-900 dark:text-white leading-tight mb-4">Hariprasad</h1>
+                <h1 className="text-5xl md:text-7xl font-bold text-slate-900 dark:text-white leading-tight mb-4">
+                  Hariprasad
+                  <span className="sr-only"> - AR/VR/MR Developer, 3D Designer & Spatial Computing Specialist</span>
+                </h1>
                 <div className="text-2xl md:text-3xl font-semibold">
                   <TypingText
                     texts={["I am AR/VR Developer", "I am 3D Designer", "I am Video Editor"]}
@@ -453,7 +456,7 @@ export default function Home() {
                   <Linkedin size={20} /> LinkedIn
                 </Button>
               </Link>
-              <Link href="https://github.com" target="_blank">
+              <Link href="https://github.com/ai3d-developer" target="_blank" rel="noopener noreferrer">
                 <Button
                   variant="outline"
                   className="border-slate-300 dark:border-slate-600 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 gap-2 bg-transparent"

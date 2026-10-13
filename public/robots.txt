@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://profilename.space/sitemap.xml
+Host: https://profilename.space
